@@ -1,0 +1,13 @@
+CSS Basic EM Units
+1em entspricht dem Schriftgrößenwert des übergeordneten Elements.
+So beträgt beispielsweise die Standardschriftgröße für die meisten Browser 16 Pixel.
+Wenn wir also die Schriftgröße unserer Seite auf 1em setzen, entspricht der Einstellung der Schriftgröße auf 16 Pixel.
+Hier 1em=16px
+
+Auf diese Weise können untergeordnete Elemente proportional zur Größe der übergeordneten Elemente angepasst werden
+
+Compoundierungseffekt = Zusammensetzungsproblem 
+Lösung rem
+
+All we need to know here is that REM units,are not affected by inheritance the way ems are.
+So they're able to help us out of a pinch, when font sizing and ems start to compound.
