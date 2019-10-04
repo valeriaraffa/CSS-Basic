@@ -196,3 +196,33 @@ a:active {
   display: table;
   clear: both;
 }
+
+/* Media Query ------------------ */
+
+@media (max-width: 960px) {
+  body {
+    background: royalblue;
+  }
+
+}
+
+@media (max-width:480px) {
+  body {
+    background: darkred;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 700px){
+  body {
+    background: seagreen;
+  }
+  p {
+    color: white;
+  }
+}
+
+
+
+
+
+
